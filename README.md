@@ -41,6 +41,15 @@ Os dados do Meu Pluggy são atualizados a cada 24 horas, então uma compra pode 
 - Se você usar a conexão com o banco, seus dados de acesso ficam criptografados na nuvem, para não precisar digitá-los em cada computador. A chave da criptografia fica conosco. As movimentações vêm da Pluggy direto para o seu computador.
 - Para classificar gastos e gerar dicas, o programa envia a um serviço de inteligência artificial nomes de estabelecimentos, totais do mês e saldos. Ele tenta deixar de fora nomes de pessoas e CPFs, mas essa separação é automática e pode falhar.
 
+## Código
+
+Este repositório traz uma amostra do código do Economic, para quem quiser conhecer o trabalho por trás do programa:
+
+- `telas/`: parte das telas do aplicativo.
+- `backend/`: leitura dos extratos e separação dos gastos por categoria.
+
+É só uma parte: não forma um programa completo e não pode ser executada. Para usar o Economic, instale pela página de [versões](https://github.com/guialbuquerque26/economic/releases/latest).
+
 ## Aviso
 
 O Economic ajuda você a pensar nas suas finanças, mas não é banco, corretora nem consultoria. As dicas são geradas automaticamente, podem conter erros e não são recomendação de investimento.
